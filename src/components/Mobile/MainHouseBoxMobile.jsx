@@ -1,7 +1,7 @@
 import React from 'react';
 import './MainHouseBoxStyles.scss';
 import { Real_House_Data } from '../../helpers/demoHouseData';
-import MainImage from './MainImage';
+import MainImage from './MainImage'
 
 function MainHouseBoxMobile({ id }) {
     const data = Real_House_Data[id];
