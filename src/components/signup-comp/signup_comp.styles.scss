@@ -1,0 +1,16 @@
+.signup-comp{
+    width: 30%;
+    margin: 0 auto;
+    padding: 1rem;
+    // padding-bottom: 0;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    // box-shadow: 2px 2px 10px rgba(32, 32, 32, 0.11);
+    box-shadow: -1px 3px 12px 0px rgba(194, 188, 194, 0.582);
+}
+
+@media screen and (max-width: 720px){
+    .signup-comp{
+        width: 90%;
+    }
+}

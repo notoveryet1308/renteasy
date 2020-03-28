@@ -1,0 +1,38 @@
+.signup-fb{
+    width: 70%;
+    margin: 1rem auto;
+    padding: .5rem .7rem;
+    background-color: rgba(68, 68, 238, 0.911);
+    border-radius: 5px;
+    cursor: pointer;
+    .fb-box{
+        display: flex;
+        justify-content: space-between;
+        .fab{
+            font-size: 30px;
+            color: white;
+        }
+        .fb-text{
+            text-align: center;
+            height: 100%;
+            padding-top: 4px;
+            span{
+                text-align: center;
+                font-size: 1.1rem;
+                color: white;
+                font-weight: bold;
+                
+            }
+        }
+    }
+}
+
+.signup-fb:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 255, 0.452);
+}
+
+@media screen and (max-width: 720px){
+    .signup-fb{
+        width: 90%;
+    }
+}

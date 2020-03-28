@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
+import Homepage from './pages/home-pages/homepage';
+import Rentpage from './pages/rent-pages/rentpage';
+import Housepage from './pages/house-page/housepage';
+import Signuppage from './pages/signup-page/signuppage';
+import Loginpage from './pages/login-page/loginpage';
+import Addpropertypage from './pages/add-property-page/addpropertypage';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Switch>
+         <Route exact path='/' component={Homepage}/>
+         <Route exact path='/rent' render={(routeProps)=> <Rentpage {...routeProps}/>}/>
+         <Route exact path='/rent/:index' render={(routeProps)=> <Housepage {...routeProps}/>}/>
+         <Route exact path='/signup' render={()=> <Signuppage/>}/>
+         <Route exact path='/login' render={()=> <Loginpage/>} />
+         <Route exact path='/add-a-property' render={()=> <Addpropertypage/>} />
+      </Switch>
+    
     </div>
   );
 }

@@ -1,0 +1,15 @@
+.select-box{
+    width: 100px;
+    .select{
+        width: 100%;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .select-box{
+        .select{
+            width: 45%;
+        }
+    }
+}

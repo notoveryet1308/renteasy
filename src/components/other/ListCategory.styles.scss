@@ -1,0 +1,24 @@
+.list-category{
+    width: 100%;
+    text-align: center;
+    margin: 3rem 0;
+    .list{
+        //background: #000;
+        width: 80%;
+        margin: 1rem auto;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .list-category{
+        h1{
+            font-size: 1.2rem;
+        }
+    }
+    .list{
+        width: 95% !important;
+        flex-direction: column;
+    }
+}

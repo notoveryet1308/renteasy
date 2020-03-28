@@ -1,0 +1,17 @@
+.mapbox {
+    width: 300px;
+    border-radius: 10px 10px 0 0;
+    z-index: -1;
+}
+
+.marker-icon {
+    width: 20px;
+    height: 25px;
+    color: red;
+
+    .icon {
+        width: 20px;
+        height: 25px;
+        color: red;
+    }
+}

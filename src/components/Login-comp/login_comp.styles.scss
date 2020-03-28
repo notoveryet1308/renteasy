@@ -1,0 +1,20 @@
+.login-comp{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-color: white;
+    padding-top: 2rem;
+    border-radius: 10px;
+    // box-shadow: 2px 2px  20px rgba(0, 0, 0, 0.185);
+    box-shadow: -1px 3px 12px 0px rgba(194, 188, 194, 0.582);
+    padding: 1rem;
+}
+
+@media screen and (max-width: 720px){
+    .login-comp{
+        width: 90%;
+        margin-top: 2rem;
+    }
+}

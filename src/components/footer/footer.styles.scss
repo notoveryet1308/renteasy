@@ -1,0 +1,24 @@
+.footer {
+    width: 100%;
+    padding: 2rem;
+    background: #000;
+
+    footer {
+        width: 80%;
+        margin: 3rem auto;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        padding: 1rem !important;
+        footer {
+            // background-color: #333;
+            width: 100% !important;
+            margin: 0 auto !important;
+            flex-direction: column;
+        }
+    }
+}

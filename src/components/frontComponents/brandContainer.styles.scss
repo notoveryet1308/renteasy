@@ -1,0 +1,18 @@
+.brand-container{
+    width: 100%;
+    background: rgba(212, 211, 211, 0.884);
+    margin: 1rem 0;
+    .brands{
+        width: 98%;
+        height: 80px;
+        margin: 0 auto;
+        display: flex;
+        // justify-content: flex-start;;
+    }
+}
+
+@media only screen and(max-width: 720px){
+    .brand-container{
+        display: none;
+    }
+}

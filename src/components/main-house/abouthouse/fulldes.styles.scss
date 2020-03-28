@@ -1,0 +1,49 @@
+.fulldes{
+    width: 47%;
+    margin-bottom: 5rem;
+    // background: #000;
+    margin-left: 11.5rem;
+    h1{
+        font-size: 2.5rem;
+        color: rgba(26, 22, 22, 0.918);
+    }
+    .text{
+        color: #2e2d36;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: .5px;
+    
+    }
+    .alert{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+    .show-box{
+        cursor: pointer;
+        .btn{
+            font-size: 20px;
+            color: #7b53c1;
+        }
+    }
+    .show-box:hover{
+       .btn{
+        color: rgba(13, 13, 243, 0.979);
+       }
+    }
+   
+}
+
+.show_text{
+    display: block;
+}
+.hide_text{
+    display: none;
+}
+.text{
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.hide_btn{
+    display: none;
+}

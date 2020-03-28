@@ -1,0 +1,95 @@
+.rent-buy {
+    width: 100%;
+   
+
+    .rent-buy-box {
+        // background: #000;
+        display: flex;
+        font-size: 1rem;
+        justify-content: center;
+        font-weight: bold;
+        text-align: center;
+
+        .rent-box {
+            width: 10%;
+
+            padding: .7rem 0;
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px 5px 0 0;
+            color: rgba(57, 208, 228, 0.87);
+
+        }
+
+        .buy-box {
+            width: 10%;
+            padding: .7rem 0;
+            background-color: rgba(185, 182, 182, 0.459);
+            border-radius: 5px 5px 0 0;
+            color: white;
+            
+
+        }
+
+    }
+
+    .input-box {
+        width: 50%;
+        margin: 0 auto;
+        background-color: rgb(255, 255, 255);
+        border-radius: 4px;
+        box-shadow: 2px 2px 10px rgba(36, 35, 35, 0.308);
+
+        input {
+           // background: #000;
+            width: 90%;
+            height: 55px;
+            display: block;
+            margin: 0 auto;
+            border: none;
+            //padding-top: 7px;
+            text-align: left;
+            outline: none;
+            color: rgb(0, 0, 0);
+            font-size: 1.7vw;
+            
+        }
+
+        input::placeholder {
+            display: inline-block;
+            font-size: 1.7vw;
+            font-family: 'Lato';
+            text-transform: lowercase;
+            color: rgba(84, 226, 245, 0.904);
+            transition: opacity 300ms ease;
+            
+
+        }
+
+        input:focus::placeholder {
+           opacity: 0.5;
+           transition: opacity 300ms ease;
+           
+        }
+    }
+   
+}
+
+@media only screen and (max-width: 768px) {
+    .rent-box {
+        width: 20vw !important;
+    }
+    .buy-box{
+        width: 20vw !important;
+    }
+    .input-box{
+        border-radius: 5px !important;
+        width: 90% !important;
+        input{
+            width: 80% !important;
+            height: 40px !important;
+        }
+        input::placeholder{
+            font-size: 1rem !important;
+        }
+    }
+}
