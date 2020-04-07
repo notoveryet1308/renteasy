@@ -2,7 +2,7 @@
   "name": "renteasy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://notoveryet1308.github.io/renteasy-clone",
+  "homepage": "https://notoveryet1308.github.io/renteasy/",
   "dependencies": {
     "@material-ui/core": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
